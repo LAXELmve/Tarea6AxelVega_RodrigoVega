@@ -1,7 +1,10 @@
 # INTEGRANTES:
 
-Rodrigo Vega Linarez		20120169
+Rodrigo Vega Linares		20120169
+
 Axel Martin Vega Espinoza	20120168
+
+
 
 GRUPO: C
 
