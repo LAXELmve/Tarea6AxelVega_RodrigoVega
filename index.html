@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad con Regex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="static\js\script.js"></script>
+    
+</head>
+<body class="text-center" >
+    <main class="form-signin w-100 m-auto">
+        <form action="#">
+          <img class="mb-4" src="static/images/logo.png" alt="" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Formulario RegEx</h1>
+      
+          <div class="form-floating">
+            <input id="name" class="form-control" type="text" placeholder="Juan Antonio">
+            <label for="name">Nombre</label>
+          </div>
+          <div class="form-floating">
+            <input id="noC" class="form-control" type="text" placeholder="########">
+            <label for="noC">N&uacute;mero de control</label>
+          </div>
+          <div class="form-floating">
+            <input id="rfc" class="form-control" type="text" placeholder="XXXX######XXX">
+            <label for="rfc">RFC</label>
+          </div>
+          <div class="form-floating">
+            <input id="tel" class="form-control" type="text" placeholder="##########">
+            <label for="tel">N&uacute;mero de telefono</label>
+            
+          </div>
+          <div class="form-floating">
+            <input id="correo" class="form-control" type="text" placeholder="ejemplo@morelia.tecnm.mx">
+            <label for="correo">Correo Institucional</label><br>
+        
+          </div>
+
+          <button class="w-100 btn btn-lg btn-primary" type="button" onclick="miFuncion()">Enviar</button>
+        </form>
+
+        <br><br>
+        <hr>
+        <p id="resultado" class="mt-5 mb-3 text-muted"></p>
+    </main>
+    
+    
+
+    <!-- <form action="#">
+        <label for="name">Nombre</label><br>
+        <input id="name" type="text">
+
+        <br><br>
+
+        <label for="noC">N&uacute;mero de control</label><br>
+        <input id="noC" type="text">
+
+        <br><br>
+
+        <label for="rfc">RFC</label><br>
+        <input id="rfc" type="text">
+
+        <br><br>
+
+        <label for="tel">N&uacute;mero de telefono</label><br>
+        <input id="tel" type="text">
+
+        <br><br>
+
+        <label for="correo">Correo Institucional</label><br>
+        <input id="correo" type="text">
+
+        <br><br>
+
+        <button type="button" onclick="miFuncion()">Enviar</button>
+    </form> -->
+
+    
+</body>
+</html>
